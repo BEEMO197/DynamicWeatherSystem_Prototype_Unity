@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9678031b423a22c4d84b39f739b4a47d, type: 3}
+  m_Name: Rainy
+  m_EditorClassIdentifier: 
+  weatherID: 2
+  usesParticles: 1
+  weatherParticle: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  weatherPower: 2
+  weatherColor: {r: 0.17372729, g: 0.2614918, b: 0.6037736, a: 0}
+  PreviousWeatherRequired: 1
+  PreviousWeather: {fileID: 11400000, guid: a795085b87c7c3e419725a6a55820cac, type: 2}
